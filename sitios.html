@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./recursos/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <title>Bad Dog Studio</title>
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-md bg-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid cabecera">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./recursos/img/bad-dog-studio-logo.png"
+            alt="Studio Bad Dog logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list text-white iconos-size fs-1"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="index.html">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item dropdown me-2">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sitios
+              </a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="sitios.html#ultimos-proyectos"
+                    >Últimos proyectos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sitios.html#single-page"
+                    >Single page</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sitios.html#multi-page"
+                    >Multi page</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="comencemos.html">Comencemos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="interesado.html">¿Interesado?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="bg-main-color">
+      <section id="ultimos-proyectos" class="min-height pb-3">
+        <div class="text-center pt-5">
+          <h1>Sitios Web 100% Responsivos</h1>
+          <p class="fs-5">Desarrollo de una sola y de múltiples páginas</p>
+        </div>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./recursos/img/work-slide-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./recursos/img/work-slide-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./recursos/img/work-slide-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./recursos/img/work-slide-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./recursos/img/work-slide-5.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./recursos/img/work-slide-6.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="single-page"
+        style="--bg-image: url(../recursos/img/site-singlepage.jpg)"
+        class="bg-hero-image min-vh-100"
+      >
+        <article class="bg-alpha-image min-vh-100">
+          <div class="px-5 pt-5 col-12 col-md-7 offset-md-5">
+            <button
+              type="button"
+              class="btn btn-success btn-lg fw-bold mb-3 mt-5"
+            >
+              Desde $400 USD
+            </button>
+            <h2 class="mt-4 mb-2 fw-bold">Sitio de una sola página</h2>
+            <small>
+              El precio puede ser más bajo (o más alto) dependiendo de los
+              requisitos de su proyecto
+            </small>
+            <p class="mt-4 mb-4 fs-4">
+              Una <b>sola página</b> o <b>página de destino</b> es un sitio web
+              que consta de una página. Perfecto para presentar a tu empresa,
+              organización, producto o servicio de una manera hermosa y moderna
+              en Internet
+            </p>
+
+            <a class="fs-4 fw-bold">Solicite una cotización ahora</a>
+
+            <div class="row mt-5">
+              <div class="col-12 col-md-6">
+                <div class="w-100">
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i>Sitio web de una
+                    sola página
+                  </p>
+                  <p class="mb-3 text-start">
+                    <i class="bi bi-check-circle-fill me-2"></i>100% Responsivo
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i>Diseño
+                    personalizado
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="w-100">
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Correción de
+                    estilo
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Edición de
+                    imágenes
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Soporte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section
+        id="multi-page"
+        style="--bg-image: url(../recursos/img/site-multipage.jpg)"
+        class="bg-hero-image min-vh-100"
+      >
+        <article class="bg-alpha-image min-vh-100">
+          <div class="px-5 pt-5 col-12 col-md-7">
+            <button
+              type="button"
+              class="btn btn-success btn-lg fw-bold mb-3 mt-5"
+            >
+              Desde $1000 USD
+            </button>
+            <h2 class="mt-4 mb-2 fw-bold">Sitio multipágina</h2>
+            <small>
+              El precio puede ser más bajo (o más alto) dependiendo de los
+              requisitos de su proyecto
+            </small>
+            <p class="mt-4 mb-4 fs-4">
+              Una <b>sitio web de varias páginas</b> consta de dos o más páginas. Este formato es útil si tiene ciertos elementos que desea mantener separados por páginas y urls diferentes.
+            </p>
+
+            <a class="fs-4 fw-bold">Solicite una cotización ahora</a>
+
+            <div class="row mt-5 pb-3">
+              <div class="col-12 col-md-6">
+                <div class="w-100">
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i>2 a 6 páginas
+                  </p>
+                  <p class="mb-3 text-start">
+                    <i class="bi bi-check-circle-fill me-2"></i>100% Responsivo
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i>Diseño
+                    personalizado
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="w-100">
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Correción de
+                    estilo
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Edición de
+                    imágenes
+                  </p>
+                  <p class="mb-3">
+                    <i class="bi bi-check-circle-fill me-2"></i> Soporte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark p-3">
+      <nav class="text-center">
+        <div class="d-flex justify-content-evenly mb-1">
+          <a href="https://www.facebook.com/Garcia.Patricio.S" target="_blank">
+            <i class="bi bi-facebook fs-2"></i>
+          </a>
+          <a href="https://github.com/santyzenith" target="_blank">
+            <i class="bi bi-github fs-2"></i>
+          </a>
+          <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+            <i class="bi bi-youtube fs-2"></i>
+          </a>
+          <a href="https://www.instagram.com/santyg20/" target="_blank">
+            <i class="bi bi-instagram fs-2"></i>
+          </a>
+          <a href="https://m.me/Garcia.Patricio.S" target="_blank">
+            <i class="bi bi-messenger fs-2"></i>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=593998925097"
+            target="_blank"
+          >
+            <i class="bi bi-whatsapp fs-2"></i>
+          </a>
+        </div>
+        <small class="text-white"
+          >&copy; 2023 @Santiago_Garcia. Hecho con fines prácticos, tomando
+          inspiración del sitio
+          <a href="https://studiobaddog.com/index.html" target="_blank">
+            Studio Bad Dog
+          </a>
+        </small>
+      </nav>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
